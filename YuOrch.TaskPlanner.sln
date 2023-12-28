@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuOrch.TaskPlanner", "YuOrch.TaskPlanner\YuOrch.TaskPlanner.csproj", "{7D4FFDE2-A1DD-45B7-A185-2A9E93347413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuOrch.TaskPlanner.Domain.Models", "YuOrch.TaskPlanner.Domain.Models\YuOrch.TaskPlanner.Domain.Models.csproj", "{28B9E77C-8095-424F-A509-91AA184B895A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuOrch.TaskPlanner.Domain.Logic", "YuOrch.TaskPlanner.Domain.Logic\YuOrch.TaskPlanner.Domain.Logic.csproj", "{00CF8CE0-7714-485E-97C4-1453D1BFB2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuOrch.TaskPlanner.DataAccess.Abstractions", "YuOrch.TaskPlanner.DataAccess.Abstractions\YuOrch.TaskPlanner.DataAccess.Abstractions.csproj", "{F3F62A61-651E-4E52-B5F8-1D661DC26B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuOrch.TaskPlanner.DataAccess", "YuOrch.TaskPlanner.DataAccess\YuOrch.TaskPlanner.DataAccess.csproj", "{A349E16D-C9E6-46C4-876D-BDFC61B3C968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuOrch.TaskPlanner.Domain.Logic.Tests", "YuOrch.TaskPlanner.Domain.Logic.Tests\YuOrch.TaskPlanner.Domain.Logic.Tests.csproj", "{04193C78-5EA5-4D0D-A790-7C31654EFC96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D4FFDE2-A1DD-45B7-A185-2A9E93347413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4FFDE2-A1DD-45B7-A185-2A9E93347413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4FFDE2-A1DD-45B7-A185-2A9E93347413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4FFDE2-A1DD-45B7-A185-2A9E93347413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B9E77C-8095-424F-A509-91AA184B895A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B9E77C-8095-424F-A509-91AA184B895A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B9E77C-8095-424F-A509-91AA184B895A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B9E77C-8095-424F-A509-91AA184B895A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CF8CE0-7714-485E-97C4-1453D1BFB2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CF8CE0-7714-485E-97C4-1453D1BFB2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CF8CE0-7714-485E-97C4-1453D1BFB2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CF8CE0-7714-485E-97C4-1453D1BFB2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F62A61-651E-4E52-B5F8-1D661DC26B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F62A61-651E-4E52-B5F8-1D661DC26B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F62A61-651E-4E52-B5F8-1D661DC26B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F62A61-651E-4E52-B5F8-1D661DC26B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A349E16D-C9E6-46C4-876D-BDFC61B3C968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A349E16D-C9E6-46C4-876D-BDFC61B3C968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A349E16D-C9E6-46C4-876D-BDFC61B3C968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A349E16D-C9E6-46C4-876D-BDFC61B3C968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04193C78-5EA5-4D0D-A790-7C31654EFC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04193C78-5EA5-4D0D-A790-7C31654EFC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04193C78-5EA5-4D0D-A790-7C31654EFC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04193C78-5EA5-4D0D-A790-7C31654EFC96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {761B54E6-E255-49B0-96A6-1BD153549372}
+	EndGlobalSection
+EndGlobal
